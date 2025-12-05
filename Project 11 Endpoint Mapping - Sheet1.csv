@@ -1,0 +1,27 @@
+Organization: E-Commerce Company | Approach: Internal Controls Approach,,,,,
+Function,Category,Subcategory,Current Profile,Target Profile,Profile Gaps
+Identify (ID),Asset Management,Inventory Tracking,Manual spreadsheets,Automated CMDB with RFID tagging [SA-3],"No lifecycle management, outdated asset records"
+Identify (ID),Asset Management,Network Infrastructure,Manual inventory tracking,Automated CMDB with RFID tagging [SA-3],"No lifecycle management, outdated asset records"
+Protect (PR),Identity; Access Management,Web Servers,"Basic firewall protection, weak access controls, and outdated software.","Advanced Firewall with advanced threat detection capabilities. strong access controls, including multi-factor authentication (MFA) for administrative access. Regularly update and patch server","Robust firewall with advanced threat detection. Protect against web application attacks, unauthorized access, and data breaches."
+Protect (PR),Identity; Access Management,User Authentication,Basic password policies,SAML SSO + TACACS+ [SA-8(5)],"No MFA, excessive privileges [SA-8(14)]"
+Protect (PR),Network Security,Edge Devices,"Basic firewall, no traffic segmentation","Advanced firewall with IDS/IPS, VLAN segmentation [SA-8(19), SA-8(23)]","No intrusion detection, flat network topology"
+Protect (PR),Network Security,Internal Networking,"Unencrypted wireless, outdated switch firmware","WPA3 encryption, switch port security [SA-8(5), SA-8(6)]","Weak authentication protocols, no device isolation"
+Protect (PR),Application Security,Web Servers,"Outdated Apache/Tomcat, weak access controls","Regular patching, WAF integration, MFA for admin access [SA-11(2)]","No runtime protection, insecure API endpoints"
+Protect (PR),Application Security,Payment Gateway,"Shared hosting with web server, PCI-DSS non-compliant","Isolated environment, tokenization, HSM integration [SA-8(24)]","Co-located with web server, no encryption for PAN data"
+Protect (PR),Data Security,Database Servers,"No encryption, excessive admin privileges","AES-256 encryption, role-based access controls [SA-8(20)]","Clear-text credentials, no audit logging"
+Protect (PR),Data Security,Inventory Management,Legacy system with known vulnerabilities,Cloud-based solution with real-time monitoring [SA-8(33)],"No integrity checks, outdated access policies"
+Protect (PR),Endpoint Security,Employee Workstations,"Local admin rights, outdated OS versions","EDR solutions, enforced patch management [SA-10(5)]","Unrestricted USB access, no disk encryption"
+Protect (PR),Endpoint Security,Mobile Devices,"No MDM, personal devices accessing corporate data","BYOD policy enforcement, containerization [SA-8(27)]","Mixed personal/work data, no remote wipe capability"
+Protect (PR),Cloud Security,Data Storage,Unencrypted cloud backups,CSPs with AES-256 + client-side encryption [SA-8(20)],Inconsistent key management [SA-8(33)]
+Protect (PR),Supporting Infrastructure,"Printers, Smart TVs, Cameras","Unrestricted network access, default credentials","Isolated VLANs, strong authentication, regular firmware updates","No segmentation, no device inventory, default password"
+Protect (PR),Supply Chain Security,Third-Party Services,No formal risk assessment for vendors,"SSO integration, regular access reviews, data loss prevention",No monitoring of vendor security posture
+Protect (PR),Cloud Security,SaaS Applications,"Ad hoc adoption, unmanaged user access","SSO integration, regular access reviews, data loss prevention","Shadow IT, no centralized management"
+Protect (PR),Cloud Security,Cloud Infrastructure,"AWS, Azure, GCP","Hardened images, IaC, CIS benchmarks (SA-8, CM-2)","No infrastructure-as-code, inconsistent patching"
+Protect (PR),Physical Security,Server Room Access,"Shared access, no logging","Badge/CCTV, access logs (PE-2, PE-6, PE-8)","No monitoring, no visitor policy"
+Protect (PR),Security Awareness & Training,Employee Security Training,Annual basic training,"Role-based, phishing simulations, regular refreshers",No targeted training for privileged users
+Protect (PR),Configuration Management,Baseline Enforcement,"Manual configuration, no standardization","Automated configuration management, baseline enforcement","No drift detection, inconsistent settings"
+Protect (PR),Data Security,Endpoint Encryption,"Partial encryption, user-managed","Full disk encryption, remote wipe (SC-13, MP-5)","Unencrypted laptops, no remote wipe"
+Detect (DE),Monitoring,Security Tools,"Basic logging, no SIEM integration","24/7 SOC monitoring, UEBA capabilities [SA-11(5)]","Limited log retention, no threat intelligence feeds"
+Detect (DE),Vulnerability Management,Patch Management,"Irregular patch cycles, manual updates","Automated, risk-based patching (SI-2, RA-5)","Delayed critical updates, no reporting"
+Respond (RS),Incident Response,Playbooks,Ad-hoc processes,Automated playbooks integrated with SIEM [SA-8(19)],No dedicated IR team [SA-8(27)]
+Recover (RC),Backup,Database Backups,Weekly full backups with no encryption,Daily incremental + encrypted offsite backups [SA-8(24)],"No backup integrity verification, slow RTO"
