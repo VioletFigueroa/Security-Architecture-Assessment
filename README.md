@@ -1,5 +1,14 @@
 # Endpoint Mapping & Secure Architecture
 
+![GitHub last commit](https://img.shields.io/github/last-commit/VioletFigueroa/endpoint-mapping-architecture?style=flat-square)
+![GitHub repo size](https://img.shields.io/github/repo-size/VioletFigueroa/endpoint-mapping-architecture?style=flat-square)
+![License](https://img.shields.io/badge/license-Educational-blue?style=flat-square)
+![Release](https://img.shields.io/github/v/release/VioletFigueroa/endpoint-mapping-architecture?style=flat-square)
+
+**Quick Links:** [Documentation](README.md) | [Security Policy](SECURITY.md) | [Contributing](CONTRIBUTING.md) | [Release](https://github.com/VioletFigueroa/endpoint-mapping-architecture/releases/tag/v1.0.0)
+
+---
+
 ## Overview
 Comprehensive endpoint security assessment and secure architecture analysis incorporating NIST 800-53 control gap analysis. This project provides a detailed inventory of organizational assets, evaluates compliance with regulatory standards, and outlines a phased strategy for implementing security improvements across the infrastructure.
 
