@@ -1,11 +1,3 @@
----
-title: "Endpoint Mapping & Architecture"
-date: 2025-11-22
-layout: "single"
-draft: false
-tags: ["endpoint mapping", "architecture", "NIST", "compliance", "vulnerability assessment", "hardening"]
-summary: "Comprehensive endpoint security assessment, NIST 800-53 control gap analysis, and secure architecture documentation."
----
 
 ## Executive Summary
 
@@ -13,9 +5,9 @@ This project provides a comprehensive assessment of the organization’s endpoin
 
 ## Project Deliverables
 
-- 📄 [Endpoint Mapping (XLSX)](/projects/endpoint-mapping-architecture/Project%2011%20Endpoint%20Mapping.xlsx)
-- 📄 [Secure Architecture Report (DOCX)](/projects/endpoint-mapping-architecture/Secure%20Architecture%20Report.docx)
-- 📄 [Secure Architecture Report (Markdown)](/projects/endpoint-mapping-architecture/Secure%20Architecture%20Report.md)
+- 📄 [Endpoint Mapping (XLSX)](./Project%2011%20Endpoint%20Mapping.xlsx)
+- 📄 [Secure Architecture Report (DOCX)](./Secure%20Architecture%20Report.docx)
+- 📄 [Secure Architecture Report (Markdown)](./Secure%20Architecture%20Report.md)
 
 ## Project Overview
 
@@ -148,4 +140,3 @@ Selected NIST 800-53 Rev. 5 as the baseline framework, focusing on endpoint-rele
 2. Payment Card Industry Security Standards Council. (2022). Payment Card Industry Data Security Standard: Requirements and Security Assessment Procedures (Version 4.0).
 3. European Union. (2016). Regulation (EU) 2016/679 (General Data Protection Regulation).
 
-[← Back to Projects](/projects/)

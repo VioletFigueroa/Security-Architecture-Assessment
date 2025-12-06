@@ -197,4 +197,3 @@ These skills directly contributed to securing cybersecurity analyst roles focuse
 
 **Related Skills:** NIST 800-53, Endpoint Security, Compliance Auditing, Vulnerability Management, Security Hardening, Risk Assessment
 
-[← Back to Projects](/projects/)
