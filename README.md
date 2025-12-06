@@ -8,6 +8,15 @@
 
 ---
 
+**How to view artifacts:** Read `Secure Architecture Report.md/.docx` for findings; asset inventory lives in `Project 11 Endpoint Mapping - Sheet1.csv`.
+
+**Result snapshot:** Identified 18 critical control gaps and provided phased remediation tied to business impact.
+
+**Quick review:**
+- Docs: `Secure Architecture Report.md/.docx`
+- Evidence: `Project 11 Endpoint Mapping - Sheet1.csv`
+- Start with: Executive summary, then the phased roadmap section
+
 ## Overview
 Comprehensive endpoint security assessment and secure architecture analysis incorporating NIST 800-53 control gap analysis. This project provides a detailed inventory of organizational assets, evaluates compliance with regulatory standards, and outlines a phased strategy for implementing security improvements across the infrastructure.
 
@@ -46,6 +55,10 @@ Comprehensive endpoint security assessment and secure architecture analysis inco
 - Security controls matrices - Gap analysis and tracking
 - UNIX scripting - Automation for assessment and remediation
 - Cloud security assessment - Multi-cloud security evaluation
+
+## Lessons Learned
+- Control mapping plus asset inventory keeps remediation grounded in real systems.
+- Phased rollouts with business impact notes speed leadership approval.
 
 ## Files Included
 - [Secure Architecture Report.md](Secure%20Architecture%20Report.md) - Full technical report with findings and recommendations
